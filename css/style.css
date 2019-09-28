@@ -287,6 +287,56 @@ Main Content
     margin-bottom: auto;
 }
 
+/*=============================
+    main-content -left 
+ ==============================*/
+.main_content_left{
+    margin-top: 20px;
+}
+
+.join-container{
+    padding: 10px;
+    background-color: #fff;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+    box-shadow: 1px 1px 1px rgba(0, 0,0, 0.2);
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.join-container h5{
+    font-family: 'Miriam Libre', sans-serif;
+    color: #26272b;
+}
+
+.trending-container{
+    margin-top: 20px;
+    padding: 10px 10px 26px 10px;
+    background-color: #fff;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+    box-shadow: 1px 1px 1px rgba(0, 0,0, 0.2);
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.trending-container h5{
+    font-family: 'Miriam Libre', sans-serif;
+    color: #26272b;
+}
+.trending-post-img-container{
+    position: relative;
+    width: 100%;
+    min-height: 45px; /* Otherwise if title is small container automatically get small. */
+    
+}
+
+.trending-post-img{
+    position: absolute;
+    top: 0;
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+}
+
+ /* End Main Content */
+
 /* Footer */
 .footer-container{
     position: relative;
